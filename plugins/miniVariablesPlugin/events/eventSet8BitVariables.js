@@ -42,7 +42,7 @@ export const fields = [
     }
 ];
 export const compile = (input, helpers) => {
-    const { variableSetToValue, variableCopy, variablesMul, variablesAdd, variableFromUnion, temporaryEntityVariable } = helpers;
+    const { variableSetToValue } = helpers;
     const { vectorX, vectorY, vectorZ } = input;
     variableSetToValue(vectorX, vectorZ.value * 256 + vectorY.value);
 };
