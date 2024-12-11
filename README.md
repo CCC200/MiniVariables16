@@ -1,6 +1,10 @@
 # MiniVariables16
 A fork & expansion of [Mini Variables](https://yousurname.itch.io/mini-variables-plugin-for-gb-studio)
-**Tested on GB Studio 3.1**
+
+### GB Studio compatibility
+| 3.1   | :white_check_mark: |
+| ----- | ------------------ |
+| 4.1.3 | :white_check_mark: |
 
 GB Studio only truly supports one type of variable, a signed 16-bit integer. While this is *fine* for most small projects, there are a limited amount available and it can quickly become wasteful. Breaking a variable into single-bit flags is also supported, but these two options alone do not in my opinion cover enough use cases. With this plugin you can break each variable into smallers sets of 2/4/8-bit variables to save on space. Special thanks to **Yousurname** for the original plugin that I based this off of!
 
